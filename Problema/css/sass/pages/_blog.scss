@@ -1,0 +1,29 @@
+.blog{
+	padding-top: 4%;
+	.row2{
+		@extend .blog;
+		h3{
+			margin-top: 0;
+    	    margin-bottom: 30px;
+			color: $color-title;
+		}
+		h5+p{
+			color: $color-nav;
+		    font-size: 16px;
+		    font-weight: bold;
+		}
+	}
+	h5{
+		color: $color-title;
+	}
+	.bar-imagen{
+		margin-top: 6%;
+    	margin-bottom: 8%;
+	}
+	p{
+		@include p_blog();
+	}
+	.quote{
+		background-image: url(../images/quote_bg.png);
+	}
+}

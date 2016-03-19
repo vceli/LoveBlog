@@ -1,0 +1,88 @@
+.about{
+	.container{
+		background-color: white;
+		color: white;
+		.row{
+			background-color: $color-title;
+			margin: 0;
+			h2{
+				margin-top: 7px;
+    			margin-bottom: 20px;
+			}
+		}
+	}
+}
+
+.img-thumbnail {
+	border-radius: 0;
+	min-width: 289px;
+}
+
+.media{
+	padding-top: 5%;
+}
+
+.media > .pull-left {
+    padding-right: 4px;
+}
+
+.media-body{
+	&.about1{
+		p{
+			padding-left: 18px;
+	    	padding-right: 28px;
+	    	font-size: 17px;
+	    	font-weight: bold;
+	    	color: $color-psection;
+		}
+	}
+}
+
+.media+p{
+	padding-top: 3%;
+	padding-bottom: 7%;
+	color: $color-psection;
+	font-size: 17px;
+	font-weight: bold;
+	padding-right: 25px;
+}
+
+.parrafo-pink{
+	font-size: 17px;
+	font-weight: bold;
+	color: $color-barra;
+	border-left: 13px solid $color-title;
+	padding-right: 42px;
+	padding-left: 23px;
+    margin-bottom: 9%;
+	margin-left: 37px;
+}
+
+.parrafo-pink+p{
+	font-size: 17px;
+	font-weight: bold;
+	padding-right: 42px;
+	color: $color-psection;
+	padding-bottom: 2%;
+}
+
+.about-us{
+	.col-md-9{
+		p{
+			&:last-child{
+				font-size: 17px;
+				font-weight: bold;
+				padding-right: 42px;
+				color: $color-psection;
+				padding-bottom: 8%;
+			}
+		}
+	}
+}
+
+.gallery_photo{
+	margin-right: 3px;
+    margin-bottom: 6px;
+    width: 61px;
+}
+

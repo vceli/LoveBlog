@@ -1,0 +1,17 @@
+@include font-face('Bebas', '../font/BEBAS___');
+@include font-face('HelveticaNeue', '../font/HelveticaNeue');
+
+
+body, p {
+	@include font-family($HelveticaNeue);
+}
+*, h1,h2,h3,h4{
+	@include font-family($Bebas);
+}
+
+.img-responsive{
+	min-width: 100%;
+}
+
+
+

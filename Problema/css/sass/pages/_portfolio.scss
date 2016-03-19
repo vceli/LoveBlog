@@ -1,0 +1,35 @@
+.portfolio{
+	h3{
+		float: left;
+    	padding-left: 16px;
+    	padding-top: 6px;
+    	padding-right: 24px;
+	}
+	.pagination > li > a{
+		border: 1px solid transparent;
+		padding: 12px 28px;
+		color: $color-nav;
+	}	
+}
+
+.img-thumbnail {
+    min-width: 263px;
+}
+
+.caption{
+	border: 1px solid #DCDCDC;
+    margin-top: 11px;
+	margin-bottom: 56px;
+    padding-bottom: 21px;
+    padding-left: 14px;
+    h4{
+    	color:$color-nav;
+	    margin-top: 6px;
+    }
+    h5{
+    	color:$color-nav;
+    }
+    h6{
+    	color:$color-title;
+    }
+}
